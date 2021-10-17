@@ -499,6 +499,9 @@ footer form button{
     footer form textarea{
         margin-top: 20px;
     }
+    .about .image img{
+        height: 55vh;
+    }
 }
 
 @media only screen and (max-width:682px){
@@ -510,6 +513,10 @@ footer form button{
         width: 60%;
         margin: 0 auto;
         margin-bottom: 50px;
+    }
+
+    .about .image img{
+        height: 45vh;
     }
 }
 
