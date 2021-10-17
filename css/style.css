@@ -1,0 +1,534 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    outline: none;
+}
+
+html{
+    font-size: 12px;
+    overflow-x: hidden;
+}
+/* header */
+header{
+    width: 100%;
+    background-color: #FEEFAE;
+    padding-bottom:115px ;
+}
+nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2% 1%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+.navbar{
+    position: absolute;
+    font-size: 25px;
+    right: 5%;
+    top:25px;
+    color: #670001;
+    display: none;
+    cursor: pointer;
+    padding: 5px;
+}
+.logo{
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    font-size: 2.5rem;
+    font-weight: 900;
+    box-shadow: 0px 5px 7px 0px #670001;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    color: #670001;
+    font-size: 17px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.nav-links li{
+    margin-left: 30px;
+    transition: 1s;
+    cursor: pointer;
+}
+.nav-links li:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
+.banner-text{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2% 1%;
+    margin-top: 50px;
+    font-size: 3.7rem;
+    color: #670001;
+    text-align: center;
+}
+.intro{
+    max-width: 1200px;
+    width: 100%;
+    text-align: right;
+    padding: 2% 1%;
+}
+.intro p{
+    font-size: 2rem;
+    color: rgb(40, 40, 41);
+}
+.intro .name{
+    font-weight: 900;
+    color: #670001;
+}
+.intro a button{
+    width: 220px;
+    height: 35px;
+    margin-top: 15px;
+    color: #fafafa;
+    background: #670001;
+    border: 1px solid #670001;
+    cursor: pointer;
+    transition: .5s;
+    transition-property: background;
+}
+.intro a button:hover{
+    background: #FEEFAE;
+    color: #670001;
+    font-weight: 900;
+}
+/* header ends */
+
+/* about section start */
+.about{
+    padding: 5% 1%;
+}
+.about .title{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    color: #670001;
+}
+.about-inner{
+    max-width: 1200px;
+    padding: 2% 1%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.about .heading{
+    font-size: 2rem;
+}
+.about .box{
+    width: 47%;
+    padding: 1%;
+}
+.about .text h3{
+    font-size: 2.5rem;
+    color: #670001;
+}
+.about .text p{
+    font-size: 1.3rem;
+    color: lightslategrey;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.about .details{
+    color: lightslategrey;
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+.about .details li{
+    line-height: 30px;
+}
+.about .image{
+    text-align: center;
+}
+.about .image img{
+    width: 95%;
+    height: 75vh;
+    border-radius: 20px;
+    border: 1px solid silver;
+    padding: 5px;
+}
+/* about section ends */
+
+/* qualification section start */
+.qualification{
+    width: 100%;
+    padding: 5% 1%;
+    background: #670001;
+}
+.qualification .head{
+    font-size: 3rem;
+    color: #FEEFAE;
+    text-align: center;
+    font-weight: 900;
+}
+.qualification .qualification-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.qualification-inner .box{
+    width: 30%;
+    overflow: hidden;
+} 
+.qualification-inner .box img{
+    width: 90%;
+    height: 200px;
+    /* background: #fafafa; */
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+.qualification-inner .box h2{
+  color: #fafafa;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+.qualification-inner .box p{
+    color: #FEEFAE;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+/* qualification section ends */
+
+/* skills section start */
+.skills{
+    width: 100%;
+    padding: 5% 1%;
+    background-color: #FEEFAE;
+}
+.skills-inner{
+    max-width: 1200px;
+    padding: 2% 1%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.skills .head{
+    font-size: 3rem;
+    text-align: center;
+    color: #670001;
+    font-weight: 900;
+}
+.skills-inner .box{
+    width: 33%;
+    overflow: hidden;
+   padding: 2% 1%;
+   text-align: center;
+   margin-top: 50px;
+}
+.skills-inner .box img{
+    width: 50%;
+    height: 150px;
+}
+.skills-inner .box h1{
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+/* skills section ends */
+
+/* projects section start */
+.projects{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5% 1%;
+}
+.projects .head{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+.projects .bootstrap-projects{
+    width: 100%;
+    margin-top: 50px;
+}
+.projects .bootstrap-projects .title{
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+.projects .bootstrap-projects #red{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #670001;
+}
+.projects .bootstrap-projects .images{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.projects .bootstrap-projects .images a{
+    width: 22%;
+}
+.projects .bootstrap-projects .images a img{
+  width: 100%;  
+  height: 60vh;
+  border: 1px solid silver;
+  padding: 5px;
+  transition: .5s;
+  transition-property: box-shadow;
+  cursor: pointer;
+}
+.projects .bootstrap-projects .images img:hover{
+    box-shadow: 5px 5px 7px 5px #670001;
+}
+
+.html-css-projects{
+    margin-top: 50px;
+}
+.html-css-projects #red{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #670001;
+}
+.html-css-projects .title{
+   text-decoration: underline;   
+}
+.html-css-projects .images{
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.html-css-projects .images a{
+    width: 30%;
+}
+.html-css-projects .images a img{
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 30px;
+    border: 1px solid silver;
+    padding: 5px;
+    transition: .5s;
+    transition-property: box-shadow;
+}
+.html-css-projects .images a img:hover{
+    box-shadow: 5px 5px 5px 5px #670001;
+}
+
+/* js projects */
+.js-projects{
+    margin-top: 50px;
+}
+.js-projects .title{
+    text-decoration:underline ;
+}
+.js-projects #red{
+    color: #670001;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.js-projects .images{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.js-projects .images a{
+    width: 30%;
+    height: 30vh;
+    margin-bottom: 30px;
+}
+.js-projects .images a img{
+    width: 100%;
+    height: inherit;
+    border: 1px solid silver;
+    padding: 5px;
+}
+/* projects section ends */
+
+
+/* footer section start */
+footer{
+    width: 100%;
+    padding: 5% 1%;
+    background: #670001;
+}
+.footer-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+footer .head{
+  font-size: 5rem;
+  font-weight: 900;
+  color: #fafafa;
+}
+footer h4{
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #FEEFAE;
+}
+footer form .name-email-subject{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer form .name-email-subject input{
+  width: 32%;
+  height: 40px;
+  background: none;
+  border: 1px solid #FEEFAE;
+  padding: 10px;
+  color: #FEEFAE;
+  font-weight: 700;
+}
+::placeholder{
+    font-size: 1.2rem;
+    color: #FEEFAE;
+    font-weight: 700;
+}
+footer form textarea{
+    width: 100%;
+    margin-top: 40px;
+    background: none;
+    border: 1px solid #FEEFAE;
+    padding: 10px;
+    height: 200px;
+    color: #FEEFAE;
+}
+footer form button{
+    width: 100%;
+    font-size: 1.3rem;
+    height: 50px;
+    margin-top: 20px;
+    background: #FEEFAE;
+    border: none;
+    color: #670001;
+}
+.footer-last{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.footer-last ul a{
+     color: #FEEFAE;
+     border: 1px solid #FEEFAE;
+     padding: 10px;
+     font-size: 1.5rem;
+     margin-right: 10px;
+}
+.footer-last p{
+    font-size: 1.5rem;
+    color: #FEEFAE;
+}
+/* footer section ends */
+
+/* media query start */
+@media only screen and (max-width:962px){
+    html{
+        font-size: 10px;
+    }
+    /* navbar  */
+    .nav-links{
+        width: 80%;
+        flex-direction: column;
+        margin-top: 50px;
+        overflow: hidden;
+        max-height: 0px;
+    }
+    .nav-links li{
+        margin-bottom: 20px;
+    }
+    .navbar{
+        display: block;
+    }
+    .intro{
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+
+@media only screen and (max-width:882px){
+    /* about section start */
+    .about .box{
+         width: 80%;
+         margin: 0 auto;
+         margin-bottom: 50px;
+    }
+
+}
+
+@media only screen and (max-width:887px){
+    /* qualification section */
+    .qualification-inner .box{
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width:782px){
+    /* bootstrap projects */
+    .projects .bootstrap-projects .images a{
+        width: 45%;
+        margin-bottom: 50px;
+    }
+
+    .html-css-projects .images a{
+        width: 45%;
+    }
+
+    /* form section */
+    footer form .name-email-subject input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    footer form textarea{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:682px){
+    html{
+        font-size: 9px;
+    }
+    /* skills section */
+    .skills-inner .box{
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width:592px){
+    .projects .bootstrap-projects .images a{
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+
+    }
+
+    .html-css-projects .images a{
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .js-projects .images a{
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}
