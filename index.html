@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pranav Thakur</title>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
 
     <header>
         <!-- nav section -->
-        <nav>
+        <nav id="home">
             <i class="fa fa-navicon navbar" onclick="navbar()"></i>
             <!-- logo -->
             <div class="logo">
@@ -28,12 +28,12 @@
 
             <!-- navigation links -->
             <ul class="nav-links">
-                <li>Home</li>
-                <li>About</li>
-                <li>Qualification</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Contact Us</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#qualification">Qualification</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
         </nav>
 
@@ -55,7 +55,7 @@
     <!-- header section ends -->
 
     <!-- about section start -->
-     <section class="about">
+     <section class="about" id="about">
       <p class="title">ABOUT ME</p>
        <div class="about-inner" >
         <div class="box text" data-aos="fade-right" data-aos-duration="4000" >
@@ -79,7 +79,7 @@
     <!-- about section ends -->
 
     <!-- Qualification section start -->
-    <section class="qualification">
+    <section class="qualification" id="qualification">
         <h1 class="head">QUALIFICATION</h1>
 
         <!-- qualification inner -->
@@ -104,9 +104,9 @@
     <!-- Qualification section ends -->
 
     <!-- skills section start -->
-    <section class="skills">
+    <section class="skills" id="skill">
         <h1 class="head">SKILLS</h1>
-    <div class="skills-inner">
+    <div class="skills-inner" >
       <div class="box" data-aos="slide-up">
           <h1>HTML</h1>
           <img src="images/skills/html.png" alt="">
@@ -127,12 +127,13 @@
           <h1>BOOTSTRAP</h1>
           <img src="images/skills/bootstrap.png" alt="">
       </div>
+
     </div>
     </section>
     <!-- skills section ends -->
 
     <!-- projects section start -->
-     <div class="projects">
+     <div class="projects" id="projects">
          <h1 class="head">PROJECTS</h1>
 
          <!-- projects using bootstrap -->
@@ -185,7 +186,7 @@
     <!-- projects section ends -->
 
     <!-- footer section start -->
-     <footer>
+     <footer id="contact">
          <div class="footer-inner">
             <h1 class="head">Do You want to know <br> more about me?</h1>
             <h4>Contact Me</h4>
@@ -216,10 +217,10 @@
 
 
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
-    </script>
+    </script> -->
 
 
     <!-- javascript -->
