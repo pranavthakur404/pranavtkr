@@ -481,10 +481,17 @@ footer form button{
         text-align: center;
         margin-bottom: 50px;
     }
+    html{
+        font-size:8px;
+    }
 }
 
 @media only screen and (max-width:782px){
     /* bootstrap projects */
+    
+    html{
+        font-size:8px;
+    }
     .projects .bootstrap-projects .images a{
         width: 45%;
         margin-bottom: 50px;
