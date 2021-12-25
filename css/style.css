@@ -68,9 +68,11 @@ nav{
     margin: 0 auto;
     padding: 2% 1%;
     margin-top: 50px;
-    font-size: 3.7rem;
     color: #670001;
     text-align: center;
+}
+.banner-text h1{
+    font-size: 6rem;
 }
 .intro{
     max-width: 1200px;
@@ -416,6 +418,7 @@ footer form button{
     background: #FEEFAE;
     border: none;
     color: #670001;
+    cursor: pointer;
 }
 .footer-last{
     width: 100%;
@@ -481,17 +484,10 @@ footer form button{
         text-align: center;
         margin-bottom: 50px;
     }
-    html{
-        font-size:8px;
-    }
 }
 
 @media only screen and (max-width:782px){
     /* bootstrap projects */
-    
-    html{
-        font-size:8px;
-    }
     .projects .bootstrap-projects .images a{
         width: 45%;
         margin-bottom: 50px;
@@ -547,5 +543,11 @@ footer form button{
         width: 60%;
         margin: 0 auto;
         margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width:419px){
+    .banner-text h1{
+        font-size: 2rem;
     }
 }
